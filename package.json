@@ -1,0 +1,19 @@
+{
+  "name": "migration-preflight",
+  "version": "0.1.0",
+  "description": "A PostgreSQL migration safety checker for SQL migration files.",
+  "private": true,
+  "type": "module",
+  "scripts": {},
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.18.0",
+      "onFail": "download"
+    }
+  },
+  "packageManager": "pnpm@12.18.0",
+  "engines": {
+    "node": ">=26.13.1 <27"
+  }
+}
