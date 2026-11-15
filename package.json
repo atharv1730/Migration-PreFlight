@@ -4,7 +4,9 @@
   "description": "A PostgreSQL migration safety checker for SQL migration files.",
   "private": true,
   "type": "module",
-  "scripts": {},
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
@@ -15,5 +17,9 @@
   "packageManager": "pnpm@12.18.0",
   "engines": {
     "node": ">=26.13.1 <27"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
   }
 }
